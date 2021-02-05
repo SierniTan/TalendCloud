@@ -15,7 +15,7 @@
     <module>jobs/process/file_sample_0.1</module>
     <module>jobs/process/snowflake_sample_0.1</module>
     <module>jobs/process/copy_of_snowflake_sample_0.1</module>
-    <module>jobs/process/snowflake_sample_w_implicit_context_0.1</module>
+    <module>jobs/process/implicit_context_sample_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
