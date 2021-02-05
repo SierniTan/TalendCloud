@@ -287,7 +287,7 @@
         "show" : true,
         "field" : "FILE",
         "name" : "IMPLICIT_TCONTEXTLOAD_FILE",
-        "value" : "\"C:/Talend-Studio-V7.3.1/Working/Param/context.txt\"",
+        "value" : "System.getenv(\"CONTEXT_FILE\")",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:ad2YtFA60d4UHK+b55HW+iYIn58yNMkQBcq//7Is",
+        "value" : "enc:system.encryption.key.v1:mgIsjZjEGGRvl7XTZtPC9jUBZGOT7cesLORIuh5P",
         "contextMode" : false
       }, {
         "show" : true,
