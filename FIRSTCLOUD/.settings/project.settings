@@ -293,7 +293,7 @@
         "show" : true,
         "field" : "TEXT",
         "name" : "FIELDSEPARATOR",
-        "value" : "\"\"",
+        "value" : "\"=\"",
         "contextMode" : false
       }, {
         "show" : true,
@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:5j16nM0Wy3VR+rJLWvL1cow1ZOtiu2vcqcRv/aJU",
+        "value" : "enc:system.encryption.key.v1:BcUxBc7PPECGYhmq6GbqnMmyaCjPxZ8jrb7NNrav",
         "contextMode" : false
       }, {
         "show" : true,
