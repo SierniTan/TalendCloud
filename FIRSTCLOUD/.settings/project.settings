@@ -388,7 +388,7 @@
         "show" : true,
         "field" : "PASSWORD",
         "name" : "PASS_IMPLICIT_CONTEXT",
-        "value" : "enc:system.encryption.key.v1:pMfLGhaE6S2dhkh+s2JS6jhnBqWTaF8eBelxHp94",
+        "value" : "enc:system.encryption.key.v1:ad2YtFA60d4UHK+b55HW+iYIn58yNMkQBcq//7Is",
         "contextMode" : false
       }, {
         "show" : true,
@@ -436,13 +436,13 @@
         "show" : true,
         "field" : "CHECK",
         "name" : "DISABLE_WARNINGS",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
         "field" : "CHECK",
         "name" : "DISABLE_INFO",
-        "value" : "false",
+        "value" : "true",
         "contextMode" : false
       }, {
         "show" : true,
