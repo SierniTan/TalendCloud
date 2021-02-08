@@ -20,6 +20,10 @@
     <module>jobs/process/test_0.1</module>
     <module>jobs/process/ds_sample_0.1</module>
     <module>jobs/process/multiple_context_sample_0.1</module>
+    <module>jobs/process/Examples/getweather_0.1</module>
+    <module>jobs/process/Examples/sayhello_0.1</module>
+    <module>jobs/joblets/jcloudlog_0.1</module>
+    <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
