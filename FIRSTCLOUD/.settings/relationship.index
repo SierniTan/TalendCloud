@@ -5,10 +5,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_-mmVoGqfEeuGAMueMLj_og",
-    "version" : "Latest",
-    "type" : "resource"
-  }, {
     "id" : "_HaLrIGqgEeuGAMueMLj_og",
     "version" : "Latest",
     "type" : "resource"
