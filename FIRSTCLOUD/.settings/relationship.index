@@ -5,6 +5,14 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_tBt3sGqhEeuGAMueMLj_og",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
+    "id" : "_ueG9MGqhEeuGAMueMLj_og",
+    "version" : "Latest",
+    "type" : "resource"
+  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
