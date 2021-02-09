@@ -518,10 +518,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_On3BgGqaEeuGAMueMLj_og",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "_ueG9MGqhEeuGAMueMLj_og",
     "version" : "Latest",
     "type" : "resource"
