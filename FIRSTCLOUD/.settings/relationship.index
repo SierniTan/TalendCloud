@@ -301,10 +301,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_1B1gQGnuEeuXY4guVUJZEQ",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
