@@ -24,6 +24,7 @@
     <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
     <module>jobs/process/snowflake_sample2_0.1</module>
     <module>jobs/process/file_sample2_0.1</module>
+    <module>jobs/process/multiplefiles_sample_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
