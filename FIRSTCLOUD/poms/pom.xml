@@ -30,6 +30,7 @@
     <module>jobs/process/copy_of_snowflake_sample2_0.1</module>
     <module>jobs/process/linkgitandjenkins_0.1</module>
     <module>jobs/process/test1_0.1</module>
+    <module>jobs/process/test2_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
