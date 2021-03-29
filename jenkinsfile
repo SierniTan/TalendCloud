@@ -4,7 +4,7 @@ pipeline {
         stage('build') {
             steps {
                 // bat 'python --version'
-                echo "Running ${env.BUILD_ID} and prev: ${env.previousSuccessfulBuild}"
+                echo "Running ${env.BUILD_ID} and prev: ${currentBuild.previousSuccessfulBuild}"
             }
         }
     }
