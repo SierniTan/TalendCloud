@@ -33,6 +33,7 @@
     <module>jobs/process/test2_0.1</module>
     <module>jobs/process/test3_0.1</module>
     <module>jobs/process/multiple_commits0_0.1</module>
+    <module>jobs/process/multiple_commits1_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
