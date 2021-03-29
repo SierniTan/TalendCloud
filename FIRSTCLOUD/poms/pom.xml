@@ -36,6 +36,7 @@
     <module>jobs/process/multiplecommits1_0.1</module>
     <module>jobs/process/multiplecommits2_0.1</module>
     <module>jobs/process/multiplecommits3_0.1</module>
+    <module>jobs/process/multiplecommits4_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
