@@ -32,21 +32,6 @@
     <module>jobs/process/test1_0.1</module>
     <module>jobs/process/test2_0.1</module>
     <module>jobs/process/test3_0.1</module>
-    <module>jobs/process/multiplecommits0_0.1</module>
-    <module>jobs/process/multiplecommits1_0.1</module>
-    <module>jobs/process/multiplecommits2_0.1</module>
-    <module>jobs/process/multiplecommits3_0.1</module>
-    <module>jobs/process/multiplecommits4_0.1</module>
-    <module>jobs/process/multiplecommits5_0.1</module>
-    <module>jobs/process/multiplecommits6_0.1</module>
-    <module>jobs/process/multiplecommits7_0.1</module>
-    <module>jobs/process/multiplecommits8_0.1</module>
-    <module>jobs/process/multiplecommits9_0.1</module>
-    <module>jobs/process/multiplecommits10_0.1</module>
-    <module>jobs/process/multiplecommits11_0.1</module>
-    <module>jobs/process/multiplecommits12_0.1</module>
-    <module>jobs/process/multiplecommits13_0.1</module>
-    <module>jobs/process/multiplecommits14_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
