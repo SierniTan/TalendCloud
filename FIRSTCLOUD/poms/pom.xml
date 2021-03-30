@@ -9,38 +9,43 @@
   <name>FIRSTCLOUD Codes Master</name>
   <url>http://www.talend.org/</url>
   <modules>
-    <module>code/routines</module>
-    <module>code/beans</module>
-    <module>jobs/process/client_0.1</module>
-    <module>jobs/process/copy_of_snowflake_sample_0.1</module>
-    <module>jobs/process/implicit_context_sample_0.1</module>
-    <module>jobs/routes/route1_0.1</module>
-    <module>jobs/process/test_0.1</module>
-    <module>jobs/process/ds_sample_0.1</module>
-    <module>jobs/process/multiple_context_sample_0.1</module>
     <module>jobs/process/Examples/getweather_0.1</module>
     <module>jobs/process/Examples/sayhello_0.1</module>
-    <module>jobs/joblets/jcloudlog_0.1</module>
     <module>jobs/process/Examples/video_viewers_watch_results_log_filter_0.1</module>
-    <module>jobs/process/snowflake_sample2_0.1</module>
-    <module>jobs/process/file_sample2_0.1</module>
-    <module>jobs/process/multiplefiles_sample2_0.1</module>
-    <module>jobs/process/resource_sample_0.1</module>
-    <module>jobs/process/file_sample1_0.1</module>
+    <module>jobs/process/client_0.1</module>
     <module>jobs/process/copy_of_snowflake_sample2_0.1</module>
+    <module>jobs/process/copy_of_snowflake_sample_0.1</module>
+    <module>jobs/process/ds_sample_0.1</module>
+    <module>jobs/process/file_sample1_0.1</module>
+    <module>jobs/process/file_sample2_0.1</module>
+    <module>jobs/process/implicit_context_sample_0.1</module>
     <module>jobs/process/linkgitandjenkins_0.1</module>
+    <module>jobs/process/multiplefiles_sample2_0.1</module>
+    <module>jobs/process/multiple_commits0_0.1</module>
+    <module>jobs/process/multiple_commits1_0.1</module>
+    <module>jobs/process/multiple_context_sample_0.1</module>
+    <module>jobs/process/resource_sample_0.1</module>
+    <module>jobs/process/snowflake_sample2_0.1</module>
     <module>jobs/process/test1_0.1</module>
     <module>jobs/process/test2_0.1</module>
     <module>jobs/process/test3_0.1</module>
-    <module>jobs/process/multiple_commits0_0.1</module>
-    <module>jobs/process/multiple_commits1_0.1</module>
+    <module>jobs/process/test_0.1</module>
+    <module>jobs/routes/route1_0.1</module>
+    <module>jobs/joblets/jcloudlog_0.1</module>
+    <module>code/routines</module>
+    <module>code/beans</module>
   </modules>
   <properties>
+    <cloud.deployer.runtimeType>REMOTE_ENGINE</cloud.deployer.runtimeType>
+    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <cloud.deployer.environment>Development</cloud.deployer.environment>
+    <cloud.deployer.runtimeName>sierni</cloud.deployer.runtimeName>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
     <talend.docker.tag>${project.version}</talend.docker.tag>
+    <cloud.deployer.workspace>SPH</cloud.deployer.workspace>
     <encoding>UTF-8</encoding>
     <signer.version>7.3.1</signer.version>
-    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <cloud.deployer.taskName>task_${talend.job.name}</cloud.deployer.taskName>
     <maven.deploy.skip>true</maven.deploy.skip>
   </properties>
   <build>
@@ -257,6 +262,34 @@
                   </build>
                 </image>
               </images>
+            </configuration>
+          </plugin>
+        </plugins>
+      </build>
+    </profile>
+    <profile>
+      <id>cloud-deployer</id>
+      <build>
+        <plugins>
+          <plugin>
+            <groupId>org.talend.ci</groupId>
+            <artifactId>clouddeployer-maven-plugin</artifactId>
+            <version>7.3.1</version>
+            <executions>
+              <execution>
+                <phase>deploy</phase>
+                <goals>
+                  <goal>deploy-task</goal>
+                </goals>
+              </execution>
+            </executions>
+            <configuration>
+              <serviceUrl>https://tmc.ap.cloud.talend.com/inventory/</serviceUrl>
+              <environment>${cloud.deployer.environment}</environment>
+              <workspace>${cloud.deployer.workspace}</workspace>
+              <runtimeType>${cloud.deployer.runtimeType}</runtimeType>
+              <runtimeName>${cloud.deployer.runtimeName}</runtimeName>
+              <taskName>${cloud.deployer.taskName}</taskName>
             </configuration>
           </plugin>
         </plugins>
