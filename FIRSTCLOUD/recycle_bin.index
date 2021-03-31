@@ -1,4 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-03-29T16:45:58.777+0800">
+<recyclebin:RecycleBin xmlns:recyclebin="http://www.talend.org/recyclebin" lastUpdate="2021-03-31T10:50:23.686+0800">
+  <deletedFolders>process/Examples</deletedFolders>
   <deletedItems id="_lOUjQGbEEeuWbZmJF96tKA" path="" type="PROCESS"/>
+  <deletedItems id="_tYLbMCpYEeezYpLynWwqZg" path="Examples" type="PROCESS"/>
+  <deletedItems id="_SVHFMCpSEeezYpLynWwqZg" path="Examples" type="PROCESS"/>
+  <deletedItems id="_gHbLIDfGEeahJaHnNLrpfw" path="Examples" type="PROCESS"/>
+  <deletedItems id="_gJAL0GdfEeu7sKsEkmG4sw" path="" type="PROCESS"/>
+  <deletedItems id="_5MMSoGt0EeuEfM9TvrRLBA" path="" type="PROCESS"/>
+  <deletedItems id="_lYq7kGeUEeuR0pEXvgBxlA" path="" type="PROCESS"/>
+  <deletedItems id="_4OnhEGq5EeuGAMueMLj_og" path="" type="PROCESS"/>
+  <deletedItems id="_u0E8kGbEEeuWbZmJF96tKA" path="" type="PROCESS"/>
+  <deletedItems id="_XvgMcGduEeu7sKsEkmG4sw" path="" type="PROCESS"/>
+  <deletedItems id="_l2NF0HzBEeu-YbqBhUjP9A" path="" type="PROCESS"/>
+  <deletedItems id="_yi_aUJBxEeu54-_zqkCdxA" path="" type="PROCESS"/>
+  <deletedItems id="_1GRPYJBxEeu54-_zqkCdxA" path="" type="PROCESS"/>
+  <deletedItems id="_eO5NwGeaEeusM5WNhUs8_g" path="" type="PROCESS"/>
+  <deletedItems id="_8nelQGqZEeuGAMueMLj_og" path="" type="PROCESS"/>
+  <deletedItems id="_oI1AsGqiEeuGAMueMLj_og" path="" type="PROCESS"/>
+  <deletedItems id="_Ihjx0GXdEeuhPowb2h8NIg" path="" type="PROCESS"/>
 </recyclebin:RecycleBin>
