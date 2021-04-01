@@ -18,6 +18,7 @@
     <module>jobs/process/testsss_0.1</module>
     <module>jobs/process/copy_of_job_load_to_snowflake_0.1</module>
     <module>jobs/process/job_load_to_snowflake2_0.1</module>
+    <module>jobs/process/job_load_to_snowflake3_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
