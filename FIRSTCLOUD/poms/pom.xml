@@ -20,8 +20,8 @@
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job3_ingestcuratedcustomer_0.1</module>
   </modules>
   <properties>
-    <talend.project.name>FIRSTCLOUD</talend.project.name>
     <signer.version>7.3.1</signer.version>
+    <talend.project.name>FIRSTCLOUD</talend.project.name>
     <encoding>UTF-8</encoding>
     <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
