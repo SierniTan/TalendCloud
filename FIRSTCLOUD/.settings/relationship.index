@@ -151,6 +151,10 @@
     "type" : "job"
   },
   "relatedItems" : [ {
+    "id" : "_H1oGkJKYEeur2--DgcV7-w",
+    "version" : "Latest",
+    "type" : "context"
+  }, {
     "id" : "_s3aqoHZyEeuqyLgd0V2JjQ",
     "version" : "Latest",
     "type" : "context"
@@ -435,16 +439,5 @@
     "id" : "_RtGvwJKdEeu5cNfUBrDP2g - metadata",
     "version" : "Latest",
     "type" : "schema"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_JN2J0JKwEeu5cNfUBrDP2g",
-    "version" : "0.1",
-    "type" : "test_case"
-  },
-  "relatedItems" : [ {
-    "id" : "_H1oGkJKYEeur2--DgcV7-w",
-    "version" : "0.1",
-    "type" : "test_case"
   } ]
 } ]
