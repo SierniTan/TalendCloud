@@ -151,10 +151,6 @@
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_H1oGkJKYEeur2--DgcV7-w",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "_s3aqoHZyEeuqyLgd0V2JjQ",
     "version" : "Latest",
     "type" : "context"
@@ -593,16 +589,5 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
-  } ]
-}, {
-  "baseItem" : {
-    "id" : "_t5AGUJK0EeuBKKyMFUCWHA",
-    "version" : "0.1",
-    "type" : "test_case"
-  },
-  "relatedItems" : [ {
-    "id" : "_H1oGkJKYEeur2--DgcV7-w",
-    "version" : "0.1",
-    "type" : "test_case"
   } ]
 } ]
