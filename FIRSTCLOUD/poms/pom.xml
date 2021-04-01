@@ -19,14 +19,15 @@
     <module>jobs/process/copy_of_job_load_to_snowflake_0.1</module>
     <module>jobs/process/job_load_to_snowflake2_0.1</module>
     <module>jobs/process/job_load_to_snowflake3_0.1</module>
+    <module>jobs/process/job_testload_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
-    <talend.docker.tag>${project.version}</talend.docker.tag>
-    <encoding>UTF-8</encoding>
     <signer.version>7.3.1</signer.version>
-    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
+    <encoding>UTF-8</encoding>
+    <talend.docker.tag>${project.version}</talend.docker.tag>
     <maven.deploy.skip>true</maven.deploy.skip>
+    <talend.docker.name>${talend.project.name.lowercase}/${talend.job.folder}%a</talend.docker.name>
   </properties>
   <build>
     <pluginManagement>
