@@ -13,6 +13,7 @@
     <module>code/beans</module>
     <module>jobs/process/job_test_01_0.1</module>
     <module>jobs/process/job_load_to_snowflake_0.1</module>
+    <module>jobs/process/job_load_snowflake_to_text_with_joblet_0.3</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
