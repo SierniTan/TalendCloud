@@ -20,6 +20,7 @@
     <module>jobs/process/job_load_to_snowflake2_0.1</module>
     <module>jobs/process/job_load_to_snowflake3_0.1</module>
     <module>jobs/process/job_testload_0.1</module>
+    <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job2_dq_rule_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
