@@ -304,15 +304,11 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_GlqRsJLTEeul3Z0V85bs9Q",
+    "id" : "_9L6HIJUOEeuhZrDt4hUq9g",
     "version" : "0.1",
     "type" : "job"
   },
   "relatedItems" : [ {
-    "id" : "_rTNNIJLSEeul3Z0V85bs9Q",
-    "version" : "Latest",
-    "type" : "context"
-  }, {
     "id" : "_s3aqoHZyEeuqyLgd0V2JjQ",
     "version" : "Latest",
     "type" : "context"
@@ -376,6 +372,17 @@
     "id" : "TalendStringUtil",
     "version" : "Latest",
     "type" : "routine"
+  } ]
+}, {
+  "baseItem" : {
+    "id" : "_GlqRsJLTEeul3Z0V85bs9Q",
+    "version" : "0.1",
+    "type" : "job"
+  },
+  "relatedItems" : [ {
+    "id" : "_rTNNIJLSEeul3Z0V85bs9Q",
+    "version" : "0.1",
+    "type" : "test_case"
   } ]
 }, {
   "baseItem" : {
@@ -1472,12 +1479,12 @@
   } ]
 }, {
   "baseItem" : {
-    "id" : "_GlqRsJLTEeul3Z0V85bs9Q",
+    "id" : "_9L6HIJUOEeuhZrDt4hUq9g",
     "version" : "0.1",
     "type" : "test_case"
   },
   "relatedItems" : [ {
-    "id" : "_rTNNIJLSEeul3Z0V85bs9Q",
+    "id" : "_bE_zcJQiEeuLIavmk58X7g",
     "version" : "0.1",
     "type" : "test_case"
   } ]
