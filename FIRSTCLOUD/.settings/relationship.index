@@ -550,18 +550,6 @@
     "version" : "Latest",
     "type" : "context"
   }, {
-    "id" : "_TQ6PwNlcEeqjMsz7enjyBQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_VzYh0EuQEem6SftkNGngfQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
-    "id" : "_vb7xwEq-EemDZdfSC5KkkQ",
-    "version" : "Latest",
-    "type" : "property"
-  }, {
     "id" : "DQTechnical",
     "version" : "Latest",
     "type" : "routine"
@@ -583,10 +571,6 @@
     "type" : "routine"
   }, {
     "id" : "DqStringHandling",
-    "version" : "Latest",
-    "type" : "routine"
-  }, {
-    "id" : "MDM",
     "version" : "Latest",
     "type" : "routine"
   }, {
