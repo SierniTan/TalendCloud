@@ -19,6 +19,7 @@
     <module>jobs/process/copy_of_job_load_to_snowflake_0.1</module>
     <module>jobs/process/job_load_to_snowflake2_0.1</module>
     <module>jobs/process/job_load_to_snowflake3_0.1</module>
+    <module>jobs/process/job_load_to_snowflake4_0.1</module>
     <module>jobs/process/job_testload_0.1</module>
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job_demo_dq_rule_0.1</module>
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job_demo_ingestcuratedcustomer_0.1</module>
