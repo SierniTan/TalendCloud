@@ -24,6 +24,7 @@
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job_demo_dq_rule_0.1</module>
     <module>jobs/process/job_load_customer_0.1</module>
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job_demo_ingestcuratedcustomer_0.1</module>
+    <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job3_ingestcuratedcustomer_0.1</module>
   </modules>
   <properties>
     <signer.version>7.3.1</signer.version>
