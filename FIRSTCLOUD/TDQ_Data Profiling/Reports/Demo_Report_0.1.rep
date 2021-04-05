@@ -8,19 +8,19 @@
   <taggedValue xmi:id="_5ZW9JZW_Eeu3qcD4-upSzA" tag="Description" value=""/>
   <taggedValue xmi:id="_5ZW9JpW_Eeu3qcD4-upSzA" tag="Version" value="0.1"/>
   <taggedValue xmi:id="_5ZW9J5W_Eeu3qcD4-upSzA" tag="OutputFolder" value="C:\Users\Victor.LIAW\Documents\ACRA\demo\"/>
-  <taggedValue xmi:id="_5ZW9KJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
+  <taggedValue xmi:id="_5ZW9KJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
   <taggedValue xmi:id="_5ZW9KZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBVERSION" value=""/>
-  <taggedValue xmi:id="_5ZW9KpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_HOST" value=""/>
-  <taggedValue xmi:id="_5ZW9K5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_PORT" value=""/>
-  <taggedValue xmi:id="_5ZW9LJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_WAREHOUSE" value=""/>
+  <taggedValue xmi:id="_5ZW9KpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_HOST" value="https://nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com/"/>
+  <taggedValue xmi:id="_5ZW9K5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_PORT" value="443"/>
+  <taggedValue xmi:id="_5ZW9LJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_WAREHOUSE" value="DEMO_WH"/>
   <taggedValue xmi:id="_5ZW9LZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
-  <taggedValue xmi:id="_5ZW9LpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_SCHEMA" value=""/>
-  <taggedValue xmi:id="_5ZW9L5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:fBHjYnAvtdu3KBcuL1c5iBjJpgqG5fSDQQOdZg=="/>
-  <taggedValue xmi:id="_5ZW9MZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PARAMETER" value=""/>
-  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Users\Victor.LIAW\workspace\TDQ_reporting_db\talend_dq"/>
-  <taggedValue xmi:id="_5ZW9M5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
-  <taggedValue xmi:id="_5ZW9NJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
+  <taggedValue xmi:id="_5ZW9LpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_SCHEMA" value="DQ_SCHEMA"/>
+  <taggedValue xmi:id="_5ZW9L5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_USER" value="yixuan_ong"/>
+  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:QEZMU/yyG25x7eUVClSKL7cnRZZ0+zs/rIlXrRHWnM8f6u9Pow=="/>
+  <taggedValue xmi:id="_5ZW9MZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:snowflake://https://nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com/:443/?db=talend_dq&amp;schema=DQ_SCHEMA&amp;warehouse=DEMO_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_5ZW9M5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
+  <taggedValue xmi:id="_5ZW9NJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SnowflakeDialect"/>
   <taggedValue xmi:id="_5ZW9NZW_Eeu3qcD4-upSzA" tag="REP_PASSWORD_CONTEXT" value="false"/>
   <taggedValue xmi:id="_G0g6sJXAEeu3qcD4-upSzA" tag="OutputFileName" value="Demo_Report"/>
   <taggedValue xmi:id="_G0g6sZXAEeu3qcD4-upSzA" tag="Single output" value="false"/>
