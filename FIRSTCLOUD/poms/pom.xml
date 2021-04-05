@@ -28,6 +28,7 @@
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/archive/job_load_customer_0.1</module>
     <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/job_demo_dq_rule1_0.1</module>
     <module>jobs/process/job_demo_dq_rule_out_0.1</module>
+    <module>jobs/process/A_Base_Demo_Scenarios/A_Custom_Demo/Data_Hub/test_conn_0.1</module>
   </modules>
   <properties>
     <talend.project.name>FIRSTCLOUD</talend.project.name>
