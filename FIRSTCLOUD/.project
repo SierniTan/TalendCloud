@@ -10,4 +10,11 @@
 		<nature>org.talend.core.talendnature</nature>
 		<nature>com.oaklandsw.transform.runtime.nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>.Demo_Report-20210405-1112-00028.pdf</name>
+			<type>1</type>
+			<location>C:/Users/Victor.LIAW/Documents/ACRA/demo/Demo_Report-20210405-1112-00028.pdf</location>
+		</link>
+	</linkedResources>
 </projectDescription>
