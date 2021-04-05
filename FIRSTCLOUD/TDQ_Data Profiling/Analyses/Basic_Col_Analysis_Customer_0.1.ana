@@ -27,7 +27,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE7pT6EeuhZrDt4hUq9g"/>
     </context>
     <results xmi:id="_rGa4d5W-Eeu3qcD4-upSzA">
-      <resultMetadata xmi:id="_rGa4eJW-Eeu3qcD4-upSzA" executionDate="2021-04-05T10:57:13.245+0800" executionDuration="597" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_rGa4eJW-Eeu3qcD4-upSzA" executionDate="2021-04-05T11:09:33.002+0800" executionDuration="175" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_yZuuAZW-Eeu3qcD4-upSzA" count="99" computed="true">
         <parameters xmi:id="_yZuuApW-Eeu3qcD4-upSzA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE45T6EeuhZrDt4hUq9g"/>
@@ -930,6 +930,9 @@
     <parameters xmi:id="_rGa4eZW-Eeu3qcD4-upSzA" dataFilter="_yZxxUJW-Eeu3qcD4-upSzA" analysisType="Multiple Column Analysis" executionLanguage="Java"/>
     <contextType xmi:id="_yZuG8JW-Eeu3qcD4-upSzA" confirmationNeeded="false" name="Default"/>
   </dataquality.analysis:Analysis>
+  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_G0qrsJXAEeu3qcD4-upSzA" kind="Usage" supplier="_rGa4cJW-Eeu3qcD4-upSzA">
+    <client xsi:type="dataquality.reports:TdReport" href="../Reports/Demo_Report_0.1.rep#_5ZW9IZW_Eeu3qcD4-upSzA"/>
+  </orgomg.cwm.objectmodel.core:Dependency>
   <dataquality.domain:Domain xmi:id="_yZxxUJW-Eeu3qcD4-upSzA" name="Basic_Col_Analysis_Customer">
     <ranges xmi:id="_yZyYYJW-Eeu3qcD4-upSzA">
       <expressions xmi:id="_yZyYYZW-Eeu3qcD4-upSzA">
@@ -937,7 +940,4 @@
       </expressions>
     </ranges>
   </dataquality.domain:Domain>
-  <orgomg.cwm.objectmodel.core:Dependency xmi:id="_G0qrsJXAEeu3qcD4-upSzA" kind="Usage" supplier="_rGa4cJW-Eeu3qcD4-upSzA">
-    <client xsi:type="dataquality.reports:TdReport" href="../Reports/Demo_Report_0.1.rep#_5ZW9IZW_Eeu3qcD4-upSzA"/>
-  </orgomg.cwm.objectmodel.core:Dependency>
 </xmi:XMI>
