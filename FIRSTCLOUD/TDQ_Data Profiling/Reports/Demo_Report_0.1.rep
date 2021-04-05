@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:dataquality.reports="http://dataquality.reports" xmi:id="_5ZW9IZW_Eeu3qcD4-upSzA" name="Demo_Report" creationDate="2021-04-05T11:04:58.748+0800">
+<dataquality.reports:TdReport xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.reports="http://dataquality.reports" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_5ZW9IZW_Eeu3qcD4-upSzA" name="Demo_Report" creationDate="2021-04-05T11:04:58.748+0800" defaultContext="Default">
+  <clientDependency href="../Analyses/Basic_Col_Analysis_Customer_0.1.ana#_G0qrsJXAEeu3qcD4-upSzA"/>
+  <clientDependency href="../Analyses/Pattern_Freq_analysis_Customer_0.1.ana#_G1E7YJXAEeu3qcD4-upSzA"/>
   <taggedValue xmi:id="_5ZW9IpW_Eeu3qcD4-upSzA" tag="Status" value="development"/>
   <taggedValue xmi:id="_5ZW9I5W_Eeu3qcD4-upSzA" tag="Author" value="victor.liaw@nfr1.nttdata.com"/>
-  <taggedValue xmi:id="_5ZW9JJW_Eeu3qcD4-upSzA" tag="Purpose"/>
-  <taggedValue xmi:id="_5ZW9JZW_Eeu3qcD4-upSzA" tag="Description"/>
+  <taggedValue xmi:id="_5ZW9JJW_Eeu3qcD4-upSzA" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_5ZW9JZW_Eeu3qcD4-upSzA" tag="Description" value=""/>
   <taggedValue xmi:id="_5ZW9JpW_Eeu3qcD4-upSzA" tag="Version" value="0.1"/>
-  <taggedValue xmi:id="_5ZW9J5W_Eeu3qcD4-upSzA" tag="OutputFolder" value=""/>
+  <taggedValue xmi:id="_5ZW9J5W_Eeu3qcD4-upSzA" tag="OutputFolder" value="C:\Users\Victor.LIAW\Documents\ACRA\demo\"/>
   <taggedValue xmi:id="_5ZW9KJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBTYPE" value="HSQL"/>
   <taggedValue xmi:id="_5ZW9KZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBVERSION" value=""/>
   <taggedValue xmi:id="_5ZW9KpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_HOST" value=""/>
@@ -14,10 +16,32 @@
   <taggedValue xmi:id="_5ZW9LZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_5ZW9LpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_SCHEMA" value=""/>
   <taggedValue xmi:id="_5ZW9L5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_USER" value="sa"/>
-  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:nfiG5A5E222TC67UVveNTph5zuqsfFF7/bBsRA=="/>
+  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:fBHjYnAvtdu3KBcuL1c5iBjJpgqG5fSDQQOdZg=="/>
   <taggedValue xmi:id="_5ZW9MZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PARAMETER" value=""/>
-  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:C:\Users\Victor.LIAW\workspace\TDQ_reporting_db\talend_dq"/>
+  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:hsqldb:file:/C:\Users\Victor.LIAW\workspace\TDQ_reporting_db\talend_dq"/>
   <taggedValue xmi:id="_5ZW9M5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_DRIVER" value="org.hsqldb.jdbcDriver"/>
   <taggedValue xmi:id="_5ZW9NJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.HSQLDialect"/>
   <taggedValue xmi:id="_5ZW9NZW_Eeu3qcD4-upSzA" tag="REP_PASSWORD_CONTEXT" value="false"/>
+  <taggedValue xmi:id="_G0g6sJXAEeu3qcD4-upSzA" tag="OutputFileName" value="Demo_Report"/>
+  <taggedValue xmi:id="_G0g6sZXAEeu3qcD4-upSzA" tag="Single output" value="false"/>
+  <taggedValue xmi:id="_G0g6spXAEeu3qcD4-upSzA" tag="OutputType" value="pdf"/>
+  <taggedValue xmi:id="_G0g6s5XAEeu3qcD4-upSzA" tag="REP_GENERATE_FILE" value="true"/>
+  <taggedValue xmi:id="_G0noYZXAEeu3qcD4-upSzA" tag="REP_LAST_RUN_CONTEXT" value="Default"/>
+  <presentationParams xmi:id="_G0maQJXAEeu3qcD4-upSzA" type="BOTTOM_MIDDLE_PRESENTATIONKEY">
+    <formula xmi:id="_G0maQZXAEeu3qcD4-upSzA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_G0maQpXAEeu3qcD4-upSzA" body="Page Number"/>
+    </formula>
+  </presentationParams>
+  <presentationParams xmi:id="_G0nBUJXAEeu3qcD4-upSzA" type="TOP_RIGHT_PRESENTATIONKEY">
+    <formula xmi:id="_G0nBUZXAEeu3qcD4-upSzA">
+      <expression xsi:type="relational:TdExpression" xmi:id="_G0nBUpXAEeu3qcD4-upSzA" body="Creation Date"/>
+    </formula>
+  </presentationParams>
+  <analysisMap xmi:id="_G0oPcJXAEeu3qcD4-upSzA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Basic_Col_Analysis_Customer_0.1.ana#_rGa4cJW-Eeu3qcD4-upSzA"/>
+  </analysisMap>
+  <analysisMap xmi:id="_G0oPcZXAEeu3qcD4-upSzA" mustRefresh="true" reportType="Basic">
+    <analysis href="../Analyses/Pattern_Freq_analysis_Customer_0.1.ana#_EohZsJW_Eeu3qcD4-upSzA"/>
+  </analysisMap>
+  <context xmi:id="_G0noYJXAEeu3qcD4-upSzA" confirmationNeeded="false" name="Default"/>
 </dataquality.reports:TdReport>
