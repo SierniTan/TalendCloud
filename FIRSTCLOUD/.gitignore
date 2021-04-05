@@ -8,3 +8,4 @@ poms/**/*.classpath
 poms/**/*.project
 poms/**/*.bak
 poms/**/*.log
+tests/
