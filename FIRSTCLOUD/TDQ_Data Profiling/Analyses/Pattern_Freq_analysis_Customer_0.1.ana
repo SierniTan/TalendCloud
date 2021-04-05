@@ -17,7 +17,7 @@
       <analysedElements xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE6pT6EeuhZrDt4hUq9g"/>
     </context>
     <results xmi:id="_EohZt5W_Eeu3qcD4-upSzA">
-      <resultMetadata xmi:id="_EohZuJW_Eeu3qcD4-upSzA" executionDate="2021-04-05T11:00:15.211+0800" executionDuration="191" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <resultMetadata xmi:id="_EohZuJW_Eeu3qcD4-upSzA" executionDate="2021-04-05T11:02:36.709+0800" executionDuration="185" message="" executionNumber="2" lastRunOk="true" lastExecutionNumberOk="2"/>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_FEEGOJW_Eeu3qcD4-upSzA" count="99" computed="true">
         <parameters xmi:id="_FEEGOZW_Eeu3qcD4-upSzA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE6ZT6EeuhZrDt4hUq9g"/>
@@ -102,6 +102,22 @@
           <charactersMapping xmi:id="_PHFqaZW_Eeu3qcD4-upSzA" name="Characters mapping on Hive" language="Hive" charactersToReplace="0123456789abcdefghijklmnopqrstuvwxyz?aê???éèù??üABCDEFGHIJKLMNOPQRSTUVWXYZ??ê???éèù??ü" replacementCharacters="9999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
         </builtInIndicatorDefinition>
       </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_jMB_UJW_Eeu3qcD4-upSzA" count="99" computed="true" duplicateValueCount="17">
+        <parameters xmi:id="_jMB_UZW_Eeu3qcD4-upSzA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE6ZT6EeuhZrDt4hUq9g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_kNh4kJW_Eeu3qcD4-upSzA" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_kNh4kZW_Eeu3qcD4-upSzA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_kNh4kpW_Eeu3qcD4-upSzA" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_kNh4k5W_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_kNh4lJW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_kNh4lZW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_kNh4lpW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_kNh4l5W_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_kNh4mJW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_kNh4mZW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
+        </builtInIndicatorDefinition>
+      </indicators>
       <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_FEEGQJW_Eeu3qcD4-upSzA" count="99" computed="true">
         <parameters xmi:id="_FEEGQZW_Eeu3qcD4-upSzA"/>
         <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE6pT6EeuhZrDt4hUq9g"/>
@@ -184,6 +200,22 @@
           <charactersMapping xmi:id="_PIf_p5W_Eeu3qcD4-upSzA" name="Characters mapping on Vertica" language="Vertica Database" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
           <charactersMapping xmi:id="_PIf_qJW_Eeu3qcD4-upSzA" language="Netezza" charactersToReplace="abcdefghijklmnopqrstuvwxyzçâêîôûéèùïöüABCDEFGHIJKLMNOPQRSTUVWXYZÇÂÊÎÔÛÉÈÙÏÖÜ0123456789" replacementCharacters="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA9999999999"/>
           <charactersMapping xmi:id="_PIf_qZW_Eeu3qcD4-upSzA" name="Characters mapping on Hive" language="Hive" charactersToReplace="0123456789abcdefghijklmnopqrstuvwxyz?aê???éèù??üABCDEFGHIJKLMNOPQRSTUVWXYZ??ê???éèù??ü" replacementCharacters="9999999999aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DuplicateCountIndicator" xmi:id="_jMB_UpW_Eeu3qcD4-upSzA" count="99" computed="true" duplicateValueCount="7">
+        <parameters xmi:id="_jMB_U5W_Eeu3qcD4-upSzA"/>
+        <analyzedElement xsi:type="TalendMetadata:MetadataColumn" href="../../metadata/fileDelimited/customers_0.1.item#_8gEE6pT6EeuhZrDt4hUq9g"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Duplicate_Count_0.1.definition#_ccHq0hF2Ed2PKb6nEJEvhw"/>
+        <builtInIndicatorDefinition xmi:id="_kN7hMJW_Eeu3qcD4-upSzA" name="Duplicate Count" label="Duplicate Count">
+          <taggedValue xmi:id="_kN7hMZW_Eeu3qcD4-upSzA" tag="Description" value="counts the number of duplicate rows. This number and the number of unique data equals the number of distinct rows"/>
+          <taggedValue xmi:id="_kN7hMpW_Eeu3qcD4-upSzA" tag="Purpose" value="evaluates the number of duplicated records"/>
+          <sqlGenericExpression xmi:id="_kN7hM5W_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="SQL"/>
+          <sqlGenericExpression xmi:id="_kN7hNJW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_kN7hNZW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_kN7hNpW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING mycount > 1) AS myquery" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_kN7hN5W_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Microsoft SQL Server"/>
+          <sqlGenericExpression xmi:id="_kN7hOJW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) mycount FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) AS myquery" language="Adaptive Server Enterprise | Sybase Adaptive Server IQ"/>
+          <sqlGenericExpression xmi:id="_kN7hOZW_Eeu3qcD4-upSzA" body="SELECT COUNT(*) FROM (SELECT &lt;%=__COLUMN_NAMES__%>, COUNT(*) FROM &lt;%=__TABLE_NAME__%>  m &lt;%=__WHERE_CLAUSE__%> GROUP BY &lt;%=__COLUMN_NAMES__%> HAVING COUNT(*) > 1) myquery" language="Hive"/>
         </builtInIndicatorDefinition>
       </indicators>
     </results>
