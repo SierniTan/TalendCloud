@@ -1761,15 +1761,4 @@
     "version" : "Latest",
     "type" : "routine"
   } ]
-}, {
-  "baseItem" : {
-    "id" : "_SIz5cJXAEeusGNBHG30wLg",
-    "version" : "0.1",
-    "type" : "test_case"
-  },
-  "relatedItems" : [ {
-    "id" : "_cN0mIJW2EeusGNBHG30wLg",
-    "version" : "0.1",
-    "type" : "test_case"
-  } ]
 } ]
