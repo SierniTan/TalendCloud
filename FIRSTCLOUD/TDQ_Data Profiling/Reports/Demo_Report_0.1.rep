@@ -10,15 +10,15 @@
   <taggedValue xmi:id="_5ZW9J5W_Eeu3qcD4-upSzA" tag="OutputFolder" value="C:\Users\Victor.LIAW\Documents\ACRA\demo\"/>
   <taggedValue xmi:id="_5ZW9KJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBTYPE" value="Snowflake"/>
   <taggedValue xmi:id="_5ZW9KZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBVERSION" value=""/>
-  <taggedValue xmi:id="_5ZW9KpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_HOST" value="nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com/"/>
+  <taggedValue xmi:id="_5ZW9KpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_HOST" value="nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com"/>
   <taggedValue xmi:id="_5ZW9K5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_PORT" value="443"/>
   <taggedValue xmi:id="_5ZW9LJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_WAREHOUSE" value="DEMO_WH"/>
   <taggedValue xmi:id="_5ZW9LZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DBNAME" value="talend_dq"/>
   <taggedValue xmi:id="_5ZW9LpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_SCHEMA" value="DQ_SCHEMA"/>
   <taggedValue xmi:id="_5ZW9L5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_USER" value="yixuan_ong"/>
-  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:IWx8pen20rxw9xa4AuQTNmWUJFnuB5IUv9E0z/7DhqMekqznKw=="/>
+  <taggedValue xmi:id="_5ZW9MJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PASSWORD" value="enc:system.encryption.key.v1:8hiWyM3mFY33FiiTcYvo2oxtnQr34VNp1uMq2CKu2hZGI8Stfw=="/>
   <taggedValue xmi:id="_5ZW9MZW_Eeu3qcD4-upSzA" tag="REP_DBINFO_PARAMETER" value="CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
-  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:snowflake://nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com/:443/?db=talend_dq&amp;schema=DQ_SCHEMA&amp;warehouse=DEMO_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
+  <taggedValue xmi:id="_5ZW9MpW_Eeu3qcD4-upSzA" tag="REP_DBINFO_URL" value="jdbc:snowflake://nttapac.sg.ap-southeast-1.aws.snowflakecomputing.com:443/?db=talend_dq&amp;schema=DQ_SCHEMA&amp;warehouse=DEMO_WH&amp;CLIENT_RESULT_COLUMN_CASE_INSENSITIVE=true"/>
   <taggedValue xmi:id="_5ZW9M5W_Eeu3qcD4-upSzA" tag="REP_DBINFO_DRIVER" value="com.snowflake.client.jdbc.SnowflakeDriver"/>
   <taggedValue xmi:id="_5ZW9NJW_Eeu3qcD4-upSzA" tag="REP_DBINFO_DIALECT" value="org.hibernate.dialect.SnowflakeDialect"/>
   <taggedValue xmi:id="_5ZW9NZW_Eeu3qcD4-upSzA" tag="REP_PASSWORD_CONTEXT" value="false"/>
